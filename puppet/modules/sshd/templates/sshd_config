@@ -136,4 +136,4 @@ Subsystem   sftp    /usr/libexec/openssh/sftp-server
 #   X11Forwarding no
 #   AllowTcpForwarding no
 #   ForceCommand cvs server
-AllowUsers vagrant treasure2014 
+AllowUsers vagrant techtrain
