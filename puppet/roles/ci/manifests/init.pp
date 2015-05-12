@@ -10,6 +10,7 @@ class ci {
     include ci::php
     include ci::httpd
     include ci::mysql
+    include ci::jenkins
     include ci
 
     Class['ci::os-group']
