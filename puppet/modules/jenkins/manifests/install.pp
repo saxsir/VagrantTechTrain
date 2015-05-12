@@ -1,6 +1,4 @@
 class jenkins::install{
-    require openjdk
-
     exec { "add-jenkins-repo":
         command => "sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo",
         path => ["/bin", "/usr/bin"],
