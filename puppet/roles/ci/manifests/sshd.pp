@@ -1,3 +1,3 @@
-class app::sshd {
+class ci::sshd {
     include ::sshd
 }

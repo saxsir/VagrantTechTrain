@@ -1,3 +1,3 @@
-class app::iptables {
+class ci::iptables {
     include ::iptables
 }

@@ -1,3 +1,3 @@
-class app::base {
+class ci::base {
     include ::base
 }

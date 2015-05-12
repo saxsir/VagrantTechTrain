@@ -1,3 +1,3 @@
-class app::os-group {
+class ci::os-group {
     include ::os-group
 }

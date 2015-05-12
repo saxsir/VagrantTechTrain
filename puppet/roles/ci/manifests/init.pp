@@ -1,17 +1,18 @@
-class app {
-    include app::localtime
-    include app::lang
-    include app::base
-    include app::os-user-2014
-    include app::os-group
-    include app::db-2014
-    include app::sshd
-    include app::iptables
-    include app::php
-    include app::httpd
-    include app::mysql
+class ci {
+    include ci::localtime
+    include ci::lang
+    include ci::base
+    include ci::os-user-2014
+    include ci::os-group
+    include ci::db-2014
+    include ci::sshd
+    include ci::iptables
+    include ci::php
+    include ci::httpd
+    include ci::mysql
+    include ci
 
-    Class['app::os-group']
-    -> Class['app::httpd']
-    ~> Class['app::os-user-2014']
+    Class['ci::os-group']
+    -> Class['ci::httpd']
+    ~> Class['ci::os-user-2014']
 }

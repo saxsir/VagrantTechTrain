@@ -1,3 +1,3 @@
-class app::localtime {
+class ci::localtime {
     include ::localtime
 }

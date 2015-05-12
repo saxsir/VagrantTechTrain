@@ -1,3 +1,3 @@
-class app::mysql {
+class ci::mysql {
     include ::mysql
 }

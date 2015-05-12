@@ -1,3 +1,3 @@
-class app::lang {
+class ci::lang {
     include ::lang
 }

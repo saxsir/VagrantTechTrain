@@ -1,3 +1,3 @@
-class app::httpd {
+class ci::httpd {
     include ::httpd
 }
